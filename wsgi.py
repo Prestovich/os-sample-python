@@ -4,6 +4,7 @@ application = Flask(__name__)
 @application.route("/")
 def hello():
     return '<h1> Hellow World !! </h1>
+            <a href="../ben"Benny</a>
             <a href="../hum">Humbee</a>
             <a href="../bo">Boeing</a>
             <a href="../bob">Bob</a>'
@@ -12,6 +13,9 @@ def hello():
 def humbe():
     return "Hello Humberto!"
 
+@application.route("/ben")
+def humbe():
+    return "Hello Benny!"
 
 @application.route("/hum")
 def humbe():
