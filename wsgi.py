@@ -11,7 +11,7 @@ def bo():
 
 
 @application.route("/rh")
-def rh:():
+def rh():
     return "Red Hat loves linux"
 
 if __name__ == "__main__":
